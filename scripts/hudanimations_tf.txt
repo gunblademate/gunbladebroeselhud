@@ -277,13 +277,6 @@ event DamagedPlayer
 	Animate DamageAccountValue         Alpha "0"            linear 10.0 0.2
 	Animate DamageAccountValueBG       Alpha "255"          linear 0.0  0.0
 	Animate DamageAccountValueBG       Alpha "0"            linear 10.0 0.2
-	Animate Crosshair11	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
-	Animate Crosshair11 	FgColor 	"255 255 255 255" 	Linear 0.10 0.10001
-	Animate CrosshairXX FgColor "255 0 0 Opacity" Linear 0.0 0.00001
-	Animate CrosshairXX FgColor "R G B Opacity" Linear 0.15 0.15001
-	//The first line animates your HUD crosshair red, the second line changes the color back.
-	//You'll find your HUD crosshair's name in hudlayout.res, it's the value behind fieldname.
-	//Edit RGBO so it matches the HUD crosshair's color you set in hudlayout.res.
 }
 
 //===========================================
@@ -295,10 +288,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
 
 	Animate PlayerStatusHealthvalue         FgColor "buffed HP"          linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow   FgColor "buff shadow"          linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID buffed HP" linear 0.0 0.0
 
-    RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 event HudHealthBonusPulseLoop
@@ -311,7 +303,6 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate PlayerStatusHealthvalue         fgcolor "HP" accel 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow   fgcolor "0 0 0 255" accel 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
 }
 
@@ -339,7 +330,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate PlayerStatusHealthvalue         fgcolor "HP" accel 0.0 0.0
-    Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
+	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
 }
 
 //===========================================
@@ -350,14 +341,14 @@ event LowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 
-	Animate	AmmoInClip	    FgColor		"Low-Ammo Clip"	Linear 0.0 0.0
-	Animate AmmoInClipShadow FgColor "Low-Ammo Shadow" linear 0.0 0.0
-	
-	Animate	AmmoInReserve   FgColor	      "Low-Ammo Reserve"	Linear 0.0 0.0
-	Animate AmmoInReserveShadow FgColor "Low-Ammo Shadow" linear 0.0 0.0
-	
-	Animate	AmmoNoClip	    FgColor		"Low-Ammo Clip"	Linear 0.0 0.0
-	Animate AmmoNoClipShadow FgColor "Low-Ammo Shadow" linear 0.0 0.0
+	Animate	AmmoInClip	    FgColor		"Low-Ammo Warning 1"	Linear 0.0 0.075
+	Animate	AmmoInClip 	    FgColor		"Low-Ammo Warning 2"	Linear 0.125 0.075
+
+	Animate	AmmoInReserve   FgColor	      "Low-Ammo Warning 1"	Linear 0.0 0.075
+	Animate	AmmoInReserve   FgColor	      "Low-Ammo Warning 2"	Linear 0.125 0.075
+
+	Animate	AmmoNoClip	    FgColor		"Low-Ammo Warning 1"	Linear 0.0 0.075
+	Animate	AmmoNoClip 	    FgColor		"Low-Ammo Warning 2"	Linear 0.125 0.075
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -373,13 +364,10 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate	AmmoInClip	    FgColor		"Ammo in Clip"		Linear 0.0 0.0
-	Animate AmmoInClipShadow FgColor "0 0 0 255" linear 0.0 0.0
 
 	Animate	AmmoInReserve   FgColor		"Ammo in Reserve"		Linear 0.0 0.0
-	Animate AmmoInReserveShadow FgColor "0 0 0 255" linear 0.0 0.0
 
 	Animate	AmmoNoClip	    FgColor		"Ammo in Clip"		Linear 0.0 0.0
-	Animate AmmoNoClipShadow FgColor "0 0 0 255" linear 0.0 0.0
 }
 
 //===========================================
@@ -473,12 +461,14 @@ event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0	
+	Animate classmodelpanel					Position	"10 r160"		Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0	
+	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
+	Animate classmodelpanel					Position	"10 r130"		Linear 0.0 0.0
 }
 
 //===========================================

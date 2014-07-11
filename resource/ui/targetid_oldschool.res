@@ -107,12 +107,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"surface10"
+		"font"			"DefaultVerySmall"
 		"xpos"			"59"
 		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"11" // try "10" if you are using lower resolution
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -121,8 +121,9 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override" "TargetID info"
+		"fgcolor_override" "255 255 255 255"
 	}
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -138,19 +139,5 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}
-	"AmmoIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"59"
-		"ypos"			"25"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
-		"scaleImage"	"1"
-	}
+	}	
 }

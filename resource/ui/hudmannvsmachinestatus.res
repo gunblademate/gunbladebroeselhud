@@ -31,7 +31,7 @@
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-10"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
@@ -42,7 +42,7 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-
+	
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -88,11 +88,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"6"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-		
+					
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"

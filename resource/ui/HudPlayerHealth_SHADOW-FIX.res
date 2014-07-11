@@ -1,222 +1,93 @@
-"Resource/UI/HudPlayerHealth.res"{
-
-"change visible to 1 to enable the team-colored HP cross border"{
-
-"visible"  "0"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HealthCrossBorder"
-		"xpos"		"41"
-		"ypos"		"51"
-		"zpos"		"3"
-		"wide"		"128"
-		"tall"		"128"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/health_border_red"
-		"teambg_2"		"replay/thumbnails/health_border_red"
-		"teambg_3"		"replay/thumbnails/health_border_blu"
-		"scaleImage"	"1"
-	}
-	
+"Resource/UI/HudPlayerHealth.res"
+{	
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-266"
-		"ypos"			"r213"
+		"xpos"			"c-466"
+		"ypos"			"r160"
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"250"
+		"wide"			"450"
+		"tall"			"150"
 		"visible"			"1"
 		"enabled"			"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"255 0 0 255"
 	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"		"75"
-		"ypos"		"85"
+		"xpos"		"160"
+		"ypos"		"0"
 		"zpos"		"4"
-		"wide"		"60"
-		"tall"		"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"		"73"
-		"ypos"		"83"
+		"xpos"		"173"
+		"ypos"		"33"
 		"zpos"		"3"
-		"wide"		"64"
-		"tall"		"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/health_bg"
+		"wide"		"0"
+		"tall"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"		"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"72"
-		"ypos"			"82"
-		"zpos"			"-4"
-		"wide"			"66"
-		"tall"			"66"
+		"xpos"		"272"
+		"ypos"		"30"
+		"zpos"		"-4"
+		"wide"		"66"
+		"tall"		"66"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"		"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"		"76"
-		"ypos"		"102"
+		"xpos"		"230"
+		"ypos"		"10"
 		"zpos"		"5"
-		"wide"		"60"
-		"tall"		"26"
+		"wide"		"150"
+		"tall"		"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"		"surface24"
+		"font"		"surfaceHPAmmo72"
 		"fgcolor"		"HP"
 	}	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"		"77"
-		"ypos"		"103"
+		"xpos"		"231"
+		"ypos"		"11"
 		"zpos"		"5"
-		"wide"		"60"
-		"tall"		"26"
+		"wide"		"151"
+		"tall"		"101"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"		"surface24"
+		"font"		"surfaceHPAmmo72"
 		"fgcolor"		"0 0 0 255"
-	}								
+	}							
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -386,8 +257,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
-		"xpos"			"85"
-		"ypos"			"150"
+		"xpos"			"300"
+		"ypos"			"50"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -401,8 +272,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
-		"xpos"			"85"
-		"ypos"			"150"
+		"xpos"			"300"
+		"ypos"			"50"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -416,8 +287,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
-		"xpos"			"85"
-		"ypos"			"150"
+		"xpos"			"300"
+		"ypos"			"50"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"

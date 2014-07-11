@@ -7,8 +7,8 @@
 		"xpos"			"6"
 		"ypos"			"6"
 		"zpos"			"4"
-		"wide"			"18" // try "19" if the TargetID HP cross isn't centered inside the background cross
-		"tall"			"18" // try "19" if the TargetID HP cross isn't centered inside the background cross
+		"wide"			"19"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -58,7 +58,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValueTargetID"
+		"fieldName"		"PlayerStatusHealthValueTargetID_OS"
 		"xpos"			"37"
 		"ypos"			"20"
 		"zpos"			"7"

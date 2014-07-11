@@ -12,7 +12,7 @@ Cross
 	"wide"	"50"
 	"tall"	"50"
 
-	"fgcolor"	"255 255 0 255"																																																																																										} divider{"
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
 
 ------------------------------------------
 hollow Cross
@@ -20,14 +20,14 @@ hollow Cross
 
 	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair02" "labelText" "b" "font"
 
-	"size: 18, outline: off"
+	"size: 18, outline: on"
 
 	"xpos"	"c-25"
 	"ypos"	"c-25"
 	"wide"	"50"
 	"tall"	"50"
 
-	"fgcolor"	"50 250 50 255"																																																																																										} divider{"
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
 
 ------------------------------------------
 hollow Cross with a dot in the middle
@@ -35,14 +35,14 @@ hollow Cross with a dot in the middle
 
 	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair03" "labelText" "c" "font"
 
-	"size: 18, outline: off"
+	"size: 18, outline: on"
 
 	"xpos"	"c-25"
 	"ypos"	"c-25"
 	"wide"	"50"
 	"tall"	"50"
 
-	"fgcolor"	"50 250 50 255"																																																																																										} divider{"
+	"fgcolor"	"0 255 0 255"																																																																																										} divider{"
 
 ------------------------------------------
 thick Cross
@@ -153,12 +153,12 @@ Dot
 
 	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair11" "labelText" "k" "font"
 
-	"size: 19, outline: off"
+	"size: 24, outline: off"
 
 	"xpos"	"c-25"
 	"ypos"	"c-25"
 	"wide"	"50"
-	"tall"	"51"
+	"tall"	"50"
 
 	"fgcolor"	"255 255 255 255"																																																																																									} divider{"
 
@@ -243,7 +243,7 @@ Wings
 
 	"visible"	"0"																																																																																													"controlName" "CExLabel" "enabled" "1" "zpos" "1" "textAlignment" "center" "fieldName" "Crosshair17" "labelText" "q" "font"
 
-	"size: 19, outline: off"
+	"size: 27, outline: off"
 
 	"xpos"	"c-25"
 	"ypos"	"c-25"
@@ -268,6 +268,144 @@ Batman
 	"fgcolor"	"255 60 235 255"																																																																																									}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -282,13 +420,13 @@ Batman
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-30"
+		"xpos"			"c-29"
 		"ypos"			"c-24"
-		"wide"			"51"
+		"wide"			"50"
 		"tall"			"50"
 
 		"font"			"CrossHairKonrWings"
@@ -297,41 +435,6 @@ Batman
 		
 		"fgcolor"		"248 248 255 255"
 	}
-	CrossHairKonrWings2
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-30"
-		"ypos"			"c-24"
-		"wide"			"52"
-		"tall"			"50"
-
-		"font"			"CrossHairKonrWings"
-		"labelText"		"Z"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"248 248 255 255"
-	}
-	CrossHairNormal
-	{
-		"controlName"  "CExLabel"
-		"fieldName"     "CrossHairNormal"
-		"visible"    "0"
-		"enabled"    "1"
-		"zpos"      "1"
-		"xpos"      "c-15"
-		"ypos"      "c-12"
-		"wide"      "25"
-		"tall"      "24"
-		"font"      "CrossHairNormal"
-		"labelText"    "x"
-		"fgcolor"    "235 226 202 255"
-		"textAlignment"  "center"
-    }
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -392,8 +495,8 @@ Batman
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"
-		"ypos"			"333"
+		"xpos"			"c-51"
+		"ypos"			"346"
 		"wide"			"400"
 		"tall"			"100"
 	}
@@ -670,8 +773,8 @@ Batman
 		"fieldName"		"HudDamageIndicator"
 		"visible"		"1"
 		"enabled"		"1"
-		"MinimumWidth"	"11"
-		"MaximumWidth"	"11"
+		"MinimumWidth"	"23"
+		"MaximumWidth"	"23"
 		"StartRadius"	"80"
 		"EndRadius"		"80"
 		"MinimumHeight"	"30"
@@ -744,7 +847,7 @@ Batman
 		"MaxDeathNotices" "9"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
-		"LineSpacing"	  "0"
+		"LineSpacing"	  "1"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"
 		
@@ -828,33 +931,17 @@ Batman
 
 	}
 
-	HudSpellMenu
-	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
-	}
-	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"610"
-		"ypos"		"268"
-		"wide"		"150"
+		"xpos"		"c-250"
+		"ypos"		"276"
+		"wide"		"500"
 		"tall"		"136"
 
-		"BgAlpha"	"0"
+		"BgAlpha"	"128"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -1549,7 +1636,6 @@ Batman
 		"wide"			"320"
 		"tall"			"150"
 	}
-	
 	HudMannVsMachineStatus
 	{
 		"fieldName" "HudMannVsMachineStatus"
@@ -1563,18 +1649,16 @@ Batman
 		
 		"PaintBackgroundType"	"2"
 	}
-	
 	PVEWinPanel
 	{
-		"fieldName"		"PVEWinPanel"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-150"
-		"ypos"			"255"
-		"wide"			"300"
-		"tall"			"215"
+		"fieldName"				"PVEWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"220"
+		"wide"					"0"		//300
+		"tall"					"215"
 	}
-	
 	"HudUpgradePanel"
 	{
 		"fieldName"		"HudUpgradePanel"
@@ -1583,9 +1667,23 @@ Batman
 		"xpos"			"c-200"
 		"ypos"			"260"
 		"wide"			"400"
-		"tall"			"160"
+		"tall"			"160"		
 	}
-	
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"130"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
 	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
@@ -1597,5 +1695,18 @@ Batman
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 }

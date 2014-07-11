@@ -93,6 +93,7 @@
 		"font"					"surface28"
 		"fgcolor" "255 255 255 255"
 	}
+	
 	"ItemEffectMeterCount2"
 	{
 		"ControlName"			"CExLabel"

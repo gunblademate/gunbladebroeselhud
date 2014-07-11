@@ -5,31 +5,26 @@ Scheme{Colors{
 ///////////////////////////////////////////////////////////
 
 
-	"HP"                  "255 255 255 255"
-
+	"HP"              	  "255 255 255 255"
+	
 	"low HP"              "255 255 255 255"
 	"buffed HP"           "255 255 255 255"
-	"buff shadow"         "0 0 0 255" // make this "0 0 0 255" to remove the green buffed HP shadow
 
 	"TargetID low HP"     "255 210 160 255"
 	"TargetID buffed HP"  "140 255 100 255"
-	"TargetID info"       "255 255 255 255"
 
 	"Ammo in Clip"        "255 255 255 255"
-	"Ammo in Reserve"     "255 255 255 255"
-
-	"Damage Numbers"      "255 255 30 255"
-	"Heal Numbers"        "50 205 50 255"
-	"Last Damage done"      "255 255 30 255"
-
+	"Ammo in Reserve"     "255 255 255 255"		
+		
+	"Damage Numbers"      "245 245 220 255"
+		
 	"Ubercharge Bar"      "255 255 255 255"
 
 	"Ubercharge Full 1"   "61 202 53 255"
 	"Ubercharge Full 2"   "19 165 12 255"
 
-	"Low-Ammo Clip"       "255 255 255 255"
-	"Low-Ammo Reserve"    "255 255 255 255"
-	"Low-Ammo Shadow"     "255 0 0 255" // make this "0 0 0 255" to remove the red ammo warning shadow
+	"Low-Ammo Warning 1"  "200 0 0 255"
+	"Low-Ammo Warning 2"  "255 0 0 255"
 
 
 ///////////////////////////////////////////////////////////
@@ -264,6 +259,7 @@ Scheme{Colors{
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"				"170 0 0 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -545,7 +541,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -556,7 +552,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -567,7 +563,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -578,7 +574,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -601,7 +597,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -612,7 +608,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -624,7 +620,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -635,7 +631,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -646,7 +642,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -657,7 +653,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -669,7 +665,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -680,7 +676,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -691,7 +687,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -703,85 +699,50 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
-			}
-		}
-		surface20outline
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"1"
-			}
-		}
-		surface20shadow
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-				"dropshadow"	"1"
 			}
 		}
 		surface22shadow
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"1"
 			}
 		}
-		surface22outline
+		"CrossHairKonrWings"
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"1"
+				"name"		"Garm3nFont"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		surface23
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"23"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
 			}
 		}
-		surface23outline
-		{
-			"1"
-			{
-				"name"		"SurfaceHPAmmo-Medium"
-				"tall"		"23"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"1"
-			}
-		}
 		surface23shadow
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface-Medium"
 				"tall"		"23"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -793,7 +754,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -804,7 +765,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -816,7 +777,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -827,7 +788,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -839,7 +800,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -850,7 +811,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -862,7 +823,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -873,7 +834,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -884,7 +845,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -896,7 +857,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -907,7 +868,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"52"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -918,7 +879,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"60"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -929,7 +890,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"72"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -962,7 +923,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
+				"name"		"Surface Numbers Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -973,7 +934,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
+				"name"		"Surface Numbers Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1881,50 +1842,6 @@ Scheme{Colors{
 				"outline"	"1"
 			}
 		}
-		"CrossHairKonrWings"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"18"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"CrossHairKonrWings2"
-		{
-			"1"
-			{
-				"name"		"Garm3nFont"
-				"tall"		"16"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		 "CrossHairNormal"
-		{
-			"1"
-			{
-				"name"    "tf2cross"
-				"tall"    "11"
-				"weight"  "0"
-				"antialias"  "1"
-				"additive"  "0"
-				"outline"   "0"
-			}
-		}
-		 "CrossHairNormalOutline"
-		{
-			"1"
-			{
-				"name"    "tf2cross"
-				"tall"    "11"
-				"weight"  "0"
-				"antialias"  "1"
-				"additive"  "0"
-				"outline"   "1"
-			}
-		}
 		"size: 50, outline: on"
 		{
 			"1"
@@ -1941,7 +1858,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2418,7 +2335,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceHPAmmo-Medium"
+				"name"		"Surface Sharpened Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2760,52 +2677,52 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"			"SurfaceHPAmmo-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-				"dropshadow"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"			"SurfaceHPAmmo-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-				"dropshadow"	"1"
-				"italic"		"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"			"SurfaceHPAmmo-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-				"dropshadow"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"			"SurfaceHPAmmo-Medium"
-				"tall"			"28"
-				"antialias"		"1"
-				"dropshadow"	"1"
-				"italic"		"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"			"SurfaceHPAmmo-Medium"
-				"tall"			"18"
-				"antialias"		"1"
-				"dropshadow"	"1"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		// this is the symbol font
@@ -2815,17 +2732,6 @@ Scheme{Colors{
 			{
 				"name"		"Marlett"
 				"tall"		"20"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		"MarlettSmall"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -5289,20 +5195,20 @@ Scheme{Colors{
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
+		"7" 
 		{
 			"font" "resource/fonts/Surface.otf"
 			"name" "Surface-Medium"
 		}
-		"8"
+		"8" 
 		{
 			"font" "resource/fonts/Surface-Sharpened.ttf"
-			"name" "SurfaceSharpened-Medium"
+			"name" "Surface Sharpened Medium"
 		}
-		"9"
+		"9" 
 		{
 			"font" "resource/fonts/Surface-Numbers.ttf"
-			"name" "SurfaceNumbers-Medium"
+			"name" "Surface Numbers Medium"
 		}
 		"10"
 		{
@@ -5328,11 +5234,6 @@ Scheme{Colors{
 		{
 			"font" "resource/Garm3nFont.ttf"
 			"name" "Garm3nFont"
-		}
-		"15"
-		{
-         "font"     "resource/tf2cross.ttf"
-         "name"     "tf2cross"
 		}
 	}
 }

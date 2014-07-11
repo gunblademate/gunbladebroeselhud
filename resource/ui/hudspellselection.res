@@ -4,18 +4,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"999"
-		"ypos"			"999"
-		"wide"			"80"
+		"xpos"			"0"
+		"ypos"			"10"
+		"wide"			"0" //80
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"				
 	}
 	
 	"Spellbook"
@@ -30,7 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"
+		"scaleImage"	"1"		
 	}
 	
 	"SpellIcon"
@@ -53,14 +53,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ActionText"
-		"font"			"Default"
+		"font"			"TFFontSmall"
 		"labelText"		"%actiontext%"
-		"textAlignment" "west"
-		"xpos"			"18"
+		"textAlignment" "center"
+		"xpos"			"0"
 		"ypos"			"48"
-		"wide"			"100"
+		"wide"			"86"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"255 255 255 100"
 		"visible"		"1"
 	}
 	
@@ -75,35 +75,37 @@
 		"ypos"			"25"
 		"wide"			"100"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"255 255 255 255"
 		"visible"		"0"
-	}
-	
-	"CountTextShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"0 0 0 255"
 	}
 	
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
+		"font"			"surface20"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"46"
 		"ypos"			"17"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"surface20"
+		"labelText"		"%counttext%"
+		"textAlignment" "center"
+		"xpos"			"46"
+		"ypos"			"17"
+		"zpos"			"0"
+		"wide"			"21"
+		"tall"			"20"
+		"fgcolor"		"0 0 0 255"
 	}
 }

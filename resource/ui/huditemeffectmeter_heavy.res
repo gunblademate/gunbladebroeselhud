@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Heavy.res"
+ResourceUIHudItemEffectMeter_Heavy.res
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-37"
-		"ypos"			"r110"
+		"ypos"			"340"
 		"wide"			"74"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -17,34 +17,34 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"999"
-		"ypos"			"999"
+		"xpos"			"12"
+		"ypos"			"6"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"			
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"Label"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"-2"
 		"zpos"					"10"
-		"wide"					"74"
+		"wide"					"74" //74
 		"tall"					"9"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_BALL"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
